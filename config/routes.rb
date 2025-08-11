@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   get 'ask', to: 'questions#ask'
   get 'answer', to: 'questions#answer'
-  root to: 'questions#pages'
+  # root to: 'questions#pages'
 
   # root "posts#index"
 end
